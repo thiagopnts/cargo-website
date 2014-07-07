@@ -2,6 +2,17 @@
 title: Cargo, Rust's Package Manager
 ---
 
+# Installing Cargo
+
+For now, you should install cargo from source:
+
+```
+$ git clone --recursive https://github.com/rust-lang/cargo
+```
+
+Then it's as simple as ```make``` followed by ```make install``` and you're
+ready to go.
+
 # Let's Get Started
 
 To start, add a `Cargo.toml` to the root of your project. Here's a
